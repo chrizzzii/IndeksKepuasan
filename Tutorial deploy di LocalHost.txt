@@ -1,0 +1,12 @@
+1. Download dan ekstrak file zip di Google Drive berikut: https://drive.google.com/drive/folders/19a_hKIezaYxsqxNVaREPryLb1xrHU6RV
+2. Install XAMPP (Tutorial install XAMPP tersedia di YouTube)
+3. Install Visual Studio Code
+4. Buka folder dari hasil ekstrak zip melalui Visual Studio Code
+5. Membuka XAMPP dan klik "Start" Apache & MySQL pada XAMPP 
+6. Klik "Admin" pada MySQL
+7. Buat basis data baru bernama "db_skl"
+8. Klik basis data tersebut lalu klik "impor" pada tab di atas.
+9. Download "surveypo_dbskl.sql" di Google Drive berikut: https://drive.google.com/drive/folders/19a_hKIezaYxsqxNVaREPryLb1xrHU6RV
+10. Pada tab "impor" klik "Choose File" dan pilih file sql tadi, kemudian klik "impor" di bagian Bawah. 
+11. Buka Terminal melalui Visual Studio Code lalu ketik "php artisan serve"
+12. Buka URL yang tertampil di Terminal
